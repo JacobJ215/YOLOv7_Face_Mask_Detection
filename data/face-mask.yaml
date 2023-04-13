@@ -1,10 +1,3 @@
-# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: data/images_dataset/images/train
-val: data/images_dataset/images/val
-data/images_dataset/images/test
-
-# number of classes
-nc: 2
-
-# class names
-names: ['Mask', 'No Mask']
+version https://git-lfs.github.com/spec/v1
+oid sha256:698a1c6dfa15d00db6701d129ba207bb5f24083b6966467ec1de59d289e10d98
+size 308
