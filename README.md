@@ -35,29 +35,29 @@ python test.py --weights runs/train/yolov7-face-mask4/weights/best.pt --batch-si
 ```
 
 
-![](screenshots\test_performance.png)
+![](screenshots/test_performance.png)
 
 
 ### Test Batch 0 results
 
-![](runs\test\yolov7-face-mask-val2\test_batch0_pred.jpg)
+![](runs/test/yolov7-face-mask-val2/test_batch0_pred.jpg)
 
 ### Confusion Matrix
 
-![](runs\test\yolov7-face-mask-val2\confusion_matrix.png)
+![](runs/test/yolov7-face-mask-val2/confusion_matrix.png)
 
 ```
 python test.py --weights runs/train/yolov7-face-mask4/weights/best.pt --batch-size 2 --device 0 --data data/face-mask.yaml --img 640 --conf-thres 0.01 --iou 0.5 --name yolov7-face-mask-test --task test
 ```
 
 
-![](screenshots\test_performance.png)
+![](screenshots/test_performance.png)
 
 
 ### Test Batch 0 results
 
-![](runs\test\yolov7-face-mask-test\test_batch0_pred.jpg)
+![](runs/test/yolov7-face-mask-test/test_batch0_pred.jpg)
 
 #### Confusion Matrix
 
-![](runs\test\yolov7-face-mask-test\confusion_matrix.png)
+![](runs/test/yolov7-face-mask-test/confusion_matrix.png)
